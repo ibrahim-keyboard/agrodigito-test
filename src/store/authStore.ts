@@ -413,7 +413,7 @@ export const useAuthStore = create<AuthStore>()(
       },
     }),
     {
-      name: 'agrilink-auth',
+      name: 'agrodito-auth',
       storage: createJSONStorage(() => mmkvStorage),
       partialize: (state) => ({
         user: state.user,

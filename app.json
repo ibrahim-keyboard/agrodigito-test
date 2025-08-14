@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "agrilink-app",
-    "slug": "agrilink-app",
+    "name": "agrodigito",
+    "slug": "agrodigito",
     "version": "1.0.0--preview--2",
-    "scheme": "agrilink-app",
+    "scheme": "agrodigito",
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./src/assets/logo.png"
+      "favicon": "./src/assets/logo-new.png"
     },
     "newArchEnabled": true,
     "plugins": [
@@ -44,12 +44,12 @@
       "tsconfigPaths": true
     },
     "orientation": "portrait",
-    "icon": "./src/assets/logo.png",
+    "icon": "./src/assets/logo-new.png",
     "userInterfaceStyle": "light",
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mrkeyboard.agrilinkapp",
+      "bundleIdentifier": "com.mrkeyboard.agrodigito",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -61,7 +61,7 @@
         "monochromeImage": "./src/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.mrkeyboard.agrilinkapp"
+      "package": "com.mrkeyboard.agrodigito"
     },
     "extra": {
       "router": {},
